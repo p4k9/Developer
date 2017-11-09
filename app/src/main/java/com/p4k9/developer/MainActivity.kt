@@ -3,10 +3,10 @@ package com.p4k9.developer
 import android.app.Dialog
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
 
 class MainActivity : AppCompatActivity() {
 
-    private static final String TAG = "HomeActivity";:
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     /**
      * BottomNavigationView Setup
      */
-    private fun _setupBottomNavigationView(){
-
+    private void setupBottomNavigationView(){
+        BottomNavigationViewEx bottomNavigationViewEx = (BottomNavigationViewEx) findViewById(R.id.bottomNavViewBar);
     }
 }
