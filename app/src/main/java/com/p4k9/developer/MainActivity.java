@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
+import com.p4k9.developer.Utils.BottomNavigationViewHelper;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -26,5 +27,6 @@ public class MainActivity extends AppCompatActivity {
     private void setupBottomNavigationView(){
         Log.d(TAG, "setupBottomNavigationView: setting up BottomNavigationView");
         BottomNavigationViewEx bottomNavigationViewEx = (BottomNavigationViewEx) findViewById(R.id.bottomNavViewBar);
+        BottomNavigationViewHelper.setupBottomNavigationView(bottomNavigationViewEx);
     }
 }
