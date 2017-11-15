@@ -8,12 +8,12 @@ import android.util.Log;
 import android.view.MenuItem;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
-import com.p4k9.developer.LikesActivity;
-import com.p4k9.developer.MainActivity;
-import com.p4k9.developer.ProfileActivity;
+import com.p4k9.developer.Likes.LikesActivity;
+import com.p4k9.developer.Home.MainActivity;
+import com.p4k9.developer.Profile.ProfileActivity;
 import com.p4k9.developer.R;
-import com.p4k9.developer.SearchActivity;
-import com.p4k9.developer.ShareActivity;
+import com.p4k9.developer.Search.SearchActivity;
+import com.p4k9.developer.Share.ShareActivity;
 
 /**
  * Created by Paul.Kenjerski on 11/10/2017.

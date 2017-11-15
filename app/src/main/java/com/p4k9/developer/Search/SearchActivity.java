@@ -1,4 +1,4 @@
-package com.p4k9.developer;
+package com.p4k9.developer.Search;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
+import com.p4k9.developer.R;
 import com.p4k9.developer.Utils.BottomNavigationViewHelper;
 
 /**

@@ -1,4 +1,4 @@
-package com.p4k9.developer;
+package com.p4k9.developer.Share;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,17 +9,18 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
+import com.p4k9.developer.R;
 import com.p4k9.developer.Utils.BottomNavigationViewHelper;
 
 /**
  * Created by Paul.Kenjerski on 11/10/2017.
  */
 
-public class LikesActivity extends AppCompatActivity{
-    private static final String TAG = "LikesActivity";
-    private static final int Activity_Num = 3;
+public class ShareActivity extends AppCompatActivity{
+    private static final String TAG = "ShareActivity";
+    private static final int Activity_Num = 2;
 
-    private Context mContext = LikesActivity.this;
+    private Context mContext = ShareActivity.this;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
